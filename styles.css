@@ -1,0 +1,128 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION */
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 30px;
+    background-color: #1e1e1e; /* Dark navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* MAIN TITLE */
+.main-title{
+    text-align: center;
+}
+
+.top-nav a:hover {
+    color: #64b5f6; /* Light blue hover */
+}
+
+/* HOME ICON */
+.emoji-home {
+    text-align: center; 
+    margin-top: 5px; 
+    margin-bottom: 2px;
+}
+.emoji-home a {
+    font-size: 90px; 
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.emoji-home:hover {
+transform: scale(1.05);
+}
+
+/* HERO SECTION */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e1e1e;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+.hero-image {
+    max-width: 960px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+/* MAIN CONTENT */
+.main-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.main-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+/* MEDIA CONTENT */
+img, video {
+    display: block;
+    margin: 0 auto 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+/* LISTING STYLE */
+.spaced-list li {
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #999999;
+}
+
+.credits {
+    font-size: 0.8em;
+}
